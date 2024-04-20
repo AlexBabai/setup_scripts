@@ -1,0 +1,19 @@
+#
+# This file is parsed by pam_env module
+#
+# Syntax: simple "KEY=VAL" pairs on separate lines
+XDG_SESSION_TYPE=wayland
+_JAVA_AWT_WM_NONREPARENTING=1
+MOZ_ENABLE_WAYLAND=1
+QT_QPA_PLATFORM=wayland-egl
+ECORE_EVAS_ENGINE=wayland_egl
+ELM_ENGINE=wayland_egl
+SDL_VIDEODRIVER=wayland
+# SDL_DYNAMIC_API=/usr/lib/libSDL2-2.0.so
+
+ECORE_EVAS_ENGINE=wayland-egl
+SDL_AUDIODRIVER=pipewire
+
+EDITOR=nvim
+TERMINAL=alacritty
+TERM=alacritty

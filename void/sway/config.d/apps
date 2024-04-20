@@ -1,0 +1,15 @@
+bindsym $mod+Shift+s exec flatpak run com.brave.Browser
+bindsym $mod+Shift+w exec $term -a launcher -e ~/.config/sway/scripts/wg.sh
+exec nheko
+# exec flatpak run net.cozic.joplin_desktop
+
+for_window [app_id="mpv"] fullscreen enable
+
+
+#
+# Player
+#
+    bindsym XF86AudioPlay exec playerctl play
+    bindsym XF86AudioPause exec playerctl pause
+    bindsym XF86AudioNext exec playerctl next
+    bindsym XF86AudioPrev exec playerctl previous
